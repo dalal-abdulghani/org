@@ -1,0 +1,146 @@
+
+/* .section {
+    background-image: url(http://127.0.0.1:8000/images/لقطة الشاشة 2024-10-08 204001.png), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    /* height: 400px; */
+
+.navbar-brand{
+    background-color: white;
+                  border-bottom-left-radius: 20px;
+                  border-bottom-right-radius: 20px;
+                  z-index: 9999;
+                  box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.navbar-nav{
+    margin-right: auto;
+    z-index: 9999;
+}
+.inner{
+    width:100%
+}
+
+@media (max-width:1110px){
+
+    header .navbar-nav{
+        margin-right: 100px;
+    }
+    header .top-nav{
+        margin: 0px 50px;
+    }
+
+    header .logo{
+        width: 120px;
+        height: 150px;
+    }
+
+    header .navbar .btn-gradient{
+        margin-right: -100px ;
+        margin-left: 35px;
+    }
+    .footer_menu ul {
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 765px) {
+    header .logo{
+        width: 50px;
+        height: 50px;
+    }
+    header i{
+        font-size: 22px;
+    }
+
+
+
+
+}
+
+@media (max-width:768px) {
+    .carousel-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .stats-content {
+        margin-top: 50px;
+    }
+    .stat-item{
+        padding: 20px 0px;
+    }
+    #particles-js{
+        height: 700px;
+    }
+    .taab {
+        font-size: 10px;
+        padding: 10px 5px;
+    }
+    .section3 img{
+
+        width: 20px;
+        height: 20px;
+        margin-top: -25px;
+
+    }
+    .Box2 {
+        width: 50px;
+        height: 50px;
+    }
+    .navbar-brand{
+        box-shadow: none;
+    }
+    .donation-card {
+        max-width: 90%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    
+    
+}
+@media (min-width:769px) and (max-width:990px){
+    .stats-content {
+        margin-top: 50px;
+    }
+    .stat-item{
+        padding: 20px 0px;
+    }
+    #particles-js{
+        height: 700px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    header .nav-top {
+        background-color: #f2f2f2;
+        height: 55px;
+        z-index: 2;
+    }
+    
+
+}
+
+@media (max-width:1200px) and (min-width:995px) {
+    header .top-nav{
+        margin: 0px 30px;
+    }
+
+    header .logo{
+        width: 120px;
+        height: 150px;
+    }
+}
+
+@media (min-width:1200px) {
+    header .top-nav{
+        margin: 0px 50px;
+    }
+}
